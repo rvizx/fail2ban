@@ -15,7 +15,7 @@ python3 fail2ban.py
 
 @attacker
 ```
-hydra <ip-addr> -l root -P /usr/share/wordlist/rockyou.txt ssh
+hydra <ip-addr> -l root -P /usr/share/wordlists/rockyou.txt ssh
 ```
 
 # Notes
