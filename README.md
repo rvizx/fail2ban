@@ -12,7 +12,8 @@ So some misconfigurations can lead to privilege escalation.
 python3 fail2ban.py
 ```
 
-@attacker - to create unsuccessful login attempts
+
+@attacker
 ```
 hydra <ip-addr> -l root -P /usr/share/wordlist/rockyou.txt ssh
 ```
