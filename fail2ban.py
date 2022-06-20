@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
-# title : fail2ban-privesc
+# title  : fail2ban-privesc
 # author : Ravindu Wickramasinghe (@rvizx9)
+
+# https://github.com/rvizx/fail2ban
 
 import os
 from time import sleep as s
