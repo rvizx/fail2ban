@@ -23,6 +23,4 @@ hydra <ip-addr> -l root -P /usr/share/wordlists/rockyou.txt ssh
 ```
 
 # Notes
-https://youssef-ichioui.medium.com/abusing-fail2ban-misconfiguration-to-escalate-privileges-on-linux-826ad0cdafb7 <br>
-https://grumpygeekwrites.wordpress.com/2021/01/29/privilege-escalation-via-fail2ban/
-
+https://youssef-ichioui.medium.com/abusing-fail2ban-misconfiguration-to-escalate-privileges-on-linux-826ad0cdafb7
