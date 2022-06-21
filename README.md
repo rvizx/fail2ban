@@ -13,8 +13,8 @@ git clone https://github.com/rvizx/fail2ban
 
 @victim
 ```
-chmod +x fail2ban.sh
-./fail2ban.sh
+chmod +x fail2ban
+./fail2ban
 ```
 
 @attacker
