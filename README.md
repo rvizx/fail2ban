@@ -4,7 +4,7 @@ In Linux, fail2ban is mostly used to protect the SSH service.
 If the daemon detects several unsuccessful ssh login attempts, it executes a command that blocks the IP address.
 So misconfigurations can lead to privilege escalation.
 
-![alt text](https://github.com/rvizx/fail2ban/blob/main/imgage.png?raw=true)
+![alt text](https://github.com/rvizx/fail2ban/blob/main/image.png?raw=true)
 
 # Usage
 ```
